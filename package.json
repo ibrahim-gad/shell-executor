@@ -1,0 +1,24 @@
+{
+  "name": "shell-executor",
+  "version": "1.0.0",
+  "description": "Execute shell scripts from command line with npx",
+  "main": "index.js",
+  "bin": {
+    "shell-executor": "./bin/shell-executor.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shell",
+    "executor",
+    "bash",
+    "script",
+    "npx"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
