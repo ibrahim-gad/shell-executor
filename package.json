@@ -1,7 +1,7 @@
 {
   "name": "shell-executor",
-  "version": "1.0.0",
-  "description": "Execute shell scripts from command line with npx",
+  "version": "1.1.0",
+  "description": "Execute shell scripts from command line with npx - supports both script strings and URL downloads",
   "main": "index.js",
   "bin": {
     "shell-executor": "./bin/shell-executor.js"
@@ -14,7 +14,9 @@
     "executor",
     "bash",
     "script",
-    "npx"
+    "npx",
+    "url",
+    "download"
   ],
   "author": "",
   "license": "MIT",
